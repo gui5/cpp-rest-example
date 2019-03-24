@@ -1,10 +1,10 @@
 #pragma once
 #include "iroute.h"
 
-/*
-    factory of routes
-*/
 
+
+
+// factory of routes
 class route_builder_t {
 
     template <typename V>
@@ -27,9 +27,8 @@ public:
     route_builder_t(void) = default;
     ~route_builder_t(void) = default;
 
-    /*
-        port, address (eg. localhost), paths (list, products, v2 )->list/products/v2
-    */
+
+    //port, address (eg. localhost), paths (list, products, v2 )->list/products/v2
     template <typename T, typename ...Paths>
     static std::unique_ptr<T> make_route(std::wstring_view port
         , std::wstring_view host, Paths...paths) {
