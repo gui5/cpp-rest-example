@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\command_line">
+      <UniqueIdentifier>{acf5450d-09af-467f-b18f-f51905f80e55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,6 +23,9 @@
     </ClCompile>
     <ClCompile Include="sample_route_t.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="command_line_parser_t.cpp">
+      <Filter>Header Files\command_line</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -34,6 +40,18 @@
     </ClInclude>
     <ClInclude Include="route_manager_t.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="command_line_data_t.h">
+      <Filter>Header Files\command_line</Filter>
+    </ClInclude>
+    <ClInclude Include="command_line_parser_t.h">
+      <Filter>Header Files\command_line</Filter>
+    </ClInclude>
+    <ClInclude Include="icommand_line_t.h">
+      <Filter>Header Files\command_line</Filter>
+    </ClInclude>
+    <ClInclude Include="command_line_t.h">
+      <Filter>Header Files\command_line</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
