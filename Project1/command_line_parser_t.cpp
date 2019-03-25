@@ -1,10 +1,10 @@
 #include "command_line_parser_t.h"
-
 #include <cxxopts.hpp>
 
 
 command_line_t command_line_parser_t::parse(int argc, char** argv)
 {
+    auto& _data = command_line_data_t::get();
     bool help = false;
     cxxopts::Options options(argv[0], " - example command line options");
 

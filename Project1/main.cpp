@@ -12,8 +12,8 @@ void print_routes(router_manager_t& rman) {
 
 int main(int argc, char** argv) {
 
-    command_line_parser_t parser(command_line_data_t::get());
-    auto cmdline = parser.parse(argc, argv);
+    
+    auto cmdline = command_line_parser_t::parse(argc, argv);
 
 
     router_manager_t rman;
