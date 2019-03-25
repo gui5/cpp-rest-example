@@ -39,5 +39,5 @@ command_line_t command_line_parser_t::parse(int argc, char** argv)
     }
 
 
-    return command_line_t(command_line_data_t::get());
+    return command_line_t(_data);
 }
