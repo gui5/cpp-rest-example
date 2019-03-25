@@ -13,45 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\command_line">
+    <Filter Include="command_line">
       <UniqueIdentifier>{acf5450d-09af-467f-b18f-f51905f80e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseRoute">
+      <UniqueIdentifier>{aec41795-3e59-4222-94b0-1ca80f3001f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Routes">
+      <UniqueIdentifier>{d13c62f4-8b4a-44b1-8e2d-354aaaa108be}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sample_route_t.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="command_line_parser_t.cpp">
-      <Filter>Header Files\command_line</Filter>
+      <Filter>command_line</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_route_t.cpp">
+      <Filter>Routes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="route_builder_t.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="iroute.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="sample_route_t.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="route_manager_t.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="command_line_data_t.h">
-      <Filter>Header Files\command_line</Filter>
+      <Filter>command_line</Filter>
     </ClInclude>
     <ClInclude Include="command_line_parser_t.h">
-      <Filter>Header Files\command_line</Filter>
+      <Filter>command_line</Filter>
     </ClInclude>
     <ClInclude Include="icommand_line_t.h">
-      <Filter>Header Files\command_line</Filter>
+      <Filter>command_line</Filter>
     </ClInclude>
     <ClInclude Include="command_line_t.h">
-      <Filter>Header Files\command_line</Filter>
+      <Filter>command_line</Filter>
+    </ClInclude>
+    <ClInclude Include="iroute.h">
+      <Filter>BaseRoute</Filter>
+    </ClInclude>
+    <ClInclude Include="route_builder_t.h">
+      <Filter>BaseRoute</Filter>
+    </ClInclude>
+    <ClInclude Include="route_manager_t.h">
+      <Filter>BaseRoute</Filter>
+    </ClInclude>
+    <ClInclude Include="sample_route_t.h">
+      <Filter>Routes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
