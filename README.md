@@ -1,2 +1,2 @@
 # cpp-rest-example
-An cpp rest server example using cpprestsdk
+A cpp rest server example using cpprestsdk
